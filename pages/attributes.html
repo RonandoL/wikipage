@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="../css/styles.css" media="screen" title="no title">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="../js/jspages/formscripts.js" type="text/javascript"></script>
-    <title>template</title>
+    <title>Attributes</title>
   </head>
 
   <body>
@@ -17,18 +17,30 @@
     </header>
 
     <div class="container">
-      <h1>Block elements</h1>
-      <p>A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).</p>
+      <h1>Attributes</h1>
+      <p>jQuery contains powerful methods for changing and manipulating HTML elements and attributes.</p>
 
       <div class="row">
         <div class="col-sm-12">
-          <h3>Syntax of Block Elements</h3>
+          <h3>Examples of Attributes</h3>
 <pre class="col-sm-6">
-<ul>
-&lt;div&gt; - div elements
-&lt;h1&gt; - &lt;h6&gt; - header elements
-&lt;p&gt; - paragraph elements
-</ul>
+  .green-background {
+    background-color: green;
+  }
+
+  .yellow-background {
+    background-color: yellow;
+  }
+
+  .red-background {
+    background-color: red;
+  }
+
+  $(document).ready(function() {
+  $("button#green").click(function() {
+    $("body").removeClass();
+    $("body").addClass("green-background");
+  });
 </pre>
         </div>
       </div>  <!-- /ROW -->

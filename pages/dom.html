@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css" media="screen" title="no title">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="../js/jspages/formscripts.js" type="text/javascript"></script>
+    <title>jQuery DOM Manipulation Traversal</title>
+  </head>
+
+  <body>
+    <header>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+      </ul>
+    </header>
+
+    <div class="container">
+      <h1>jQuery DOM Manipulation Traversal</h1>
+      <p>jQuery traversing, which means "move through", are used to "find" (or select) HTML elements based on their relation to other elements. Start with one selection and move through that selection until you reach the elements you desire.</p>
+      <p>The parent() method returns the direct parent element of the selected element. The parents() method returns all ancestor elements of the selected element, all the way up to the document's root element (&lt;html&gt;). The parentsUntil() method returns all ancestor elements between two given arguments.</p>
+
+      <div class="row">
+        <div class="col-sm-12">
+          <h3>Examples of Block Elements</h3>
+<pre class="col-sm-6">
+  parent()
+  parents()
+  parentsUntil()
+
+  $(document).ready(function(){
+      $("span").parents("ul");
+  });
+</pre>
+        </div>
+      </div>  <!-- /ROW -->
+
+    <div class="row">
+      <div class="col-sm-12">
+        <h3>Example: Dom Traversal</h3>
+      </div>
+<pre class="example col-sm-6">
+  &lt;div style="width:500px;"&gt;div (great-grandparent)
+    &lt;ul&gt;ul (grandparent)
+      &lt;li&gt;li (direct parent)
+        &lt;span&gt;span&lt;/span&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+</pre>
+<img src="../images/dom.jpg" alt="dom stuff" />
+    </div> <!-- /ROW -->
+
+    </div> <!-- /CONTAINER -->
+
+  </body>
+</html>

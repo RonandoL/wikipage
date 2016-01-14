@@ -1,5 +1,6 @@
 .example {
   clear: both;
+  margin-bottom: 100px;
 }
 
 .cssExample {
@@ -10,10 +11,28 @@
   margin: 10px;
 }
 
-img {
+.cat {
   max-width: 300px;
   margin: 10px;
 }
+
+.clickHere {
+  cursor: pointer;
+  color: #0071bb;
+}
+
+.clickHere:hover {
+  text-decoration: underline;  
+}
+
+.grid {
+  max-width: 80%;
+}
+
+.gridSyntax {
+
+}
+
 
 .float {
   float: left;
@@ -27,3 +46,11 @@ div p a {
   color: red;
   text-decoration: none;
 }
+
+header {
+  padding: 10px;
+  background-color: #f5f5dc;
+}
+ ul li {
+   list-style-type: none;
+ }
