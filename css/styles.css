@@ -1,0 +1,29 @@
+.example {
+  clear: both;
+}
+
+.cssExample {
+  background-color: #ffe5e5;
+  border-radius: 5px;
+  border: 1px solid #4d0000;
+  padding: 10px;
+  margin: 10px;
+}
+
+img {
+  max-width: 300px;
+  margin: 10px;
+}
+
+.float {
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+div p a {
+  color: red;
+  text-decoration: none;
+}

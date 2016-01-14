@@ -6,34 +6,38 @@
     <link rel="stylesheet" href="../css/styles.css" media="screen" title="no title">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="../js/jspages/formscripts.js" type="text/javascript"></script>
-    <title>template</title>
+    <title>Floats</title>
   </head>
 
   <body>
     <div class="container">
-      <h1>Block elements</h1>
-      <p>A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).</h3>
+      <h1>Floats</h1>
+      <p>The float property can be used to wrap text around images.</h3>
 
       <h3>Examples of Block Elements</h3>
 <pre class="col-sm-6">
-<ul>
-&lt;div&gt; - div elements
-&lt;h1&gt; - &lt;h6&gt; - header elements
-&lt;p&gt; - paragraph elements
-</ul>
+img {
+    float: right;
+    margin: 0 0 10px 10px;
+}
 </pre>
 
       <div class="row">
         <div class="col-sm-12">
-          <h3>Example: &lt;p&gt; tag</h3>
+          <h3>Example: Float Left</h3>
 
           <div class="example">
+            <img class="float" src="../images/kitten.jpg" alt="kitten" />
             <p>Lorem paragraph ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="clear">
+
           </div>
         </div>
       </div>
 
     </div> <!-- /CONTAINER -->
+
 
   </body>
 </html>
